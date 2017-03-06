@@ -15,8 +15,6 @@ class RootMenu extends Component{
                 <RootMenuItem id="MenuDashboard" iconName="bar-chart" itemText="Analitics" />
                 <RootMenuItem id="MenuDashboard" iconName="users" itemText="Usuarios" />
                 <RootMenuItem id="MenuDashboard" iconName="user-circle-o" itemText="Partners" />
-                <RootMenuItem id="MenuSolicitudes" iconName="address-card-o" itemText="Solicitudes" a/>
-                <RootMenuItem id="MenuComercial" iconName="line-chart" itemText="Comercial" />
             </div>
         );
     }

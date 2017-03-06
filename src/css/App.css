@@ -36,9 +36,9 @@ body {
     transform: scale(2,2);
     color: #90c33f;
 }
-#rootMenuDiv{
+#rootMenuDiv,#subMenuLabelsDiv{
     overflow-y: hidden;
-    max-height: 80px;
+    max-height: 100px;
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -46,7 +46,7 @@ body {
     transition: .2s;
     font-family: 'Roboto';
     color: #84b0ed;
-    height: 5em;
+    height: 4.095em;
     font-size: 16px;
     font-weight: lighter;
     width: 100px;
@@ -54,17 +54,17 @@ body {
     display: inline-block;
     text-align: center;
 }
-.RootMenuItem:hover{
+.SubMenuRowTitle{
+    display: block;
+}
+.RootMenuItem:hover,.SubMenuItem:hover{
     transition: .5s;
-    transform: scale(.8,.8);
+    transform: scale(1.1,1.1);
     color: #2e5b9a;
 }
-.RootMenuItem:active{
+.RootMenuItem:active,.SubMenuItem:active{
     transition: .2s;
-    transform: scale(.5,.5);
-    color: #2e5b9a;
-}
-.RootMenuItemActive{
+    transform: scale(.8,.8);
     color: #2e5b9a;
 }
 .RootMenuItemIcon{
@@ -76,6 +76,38 @@ body {
 .RootMenuItemLabel{
     cursor: pointer;
 }
+.subMenuRow{
+    margin-top: 40px;
+}
+.SubMenuItem{
+    transition: .2s;
+    font-family: 'Roboto';
+    color: #84b0ed;
+    height: 1.8em;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 100px;
+    margin: 0px 1em 0px 1em;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.subMenuTitle{
+    display: inline-block;
+    width: 11em;
+    margin: 10px 0px 30px 20px ;
+    color: #2e5b9a;
+    font-weight: bold;
+}
+.Active{
+    color: #2e5b9a;
+    border-bottom-style: solid;
+    border-bottom-color: #2e5b9a;
+    font-weight: bolder;
+}
+
+
 .ugly{
     background-color: red;
 }

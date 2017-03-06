@@ -1,6 +1,7 @@
 import React,{Component} from "react"
 import PageHeader from "./PageHeader"
 import RootMenu from "./RootMenu"
+import SubMenu from "./SubMenu"
 
 
 class App extends Component{
@@ -13,6 +14,9 @@ class App extends Component{
             <div className="container">
                 <div className="row">
                     <RootMenu />
+                </div>
+                <div className="row subMenuRow">
+                    <SubMenu />
                 </div>
             </div>
         </div>
