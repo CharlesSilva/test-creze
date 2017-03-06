@@ -20,7 +20,6 @@ class App extends Component{
     }
 }
 
-//TODO : add root menu element
 //TODO : add sub menu element
 //TODO : add reportGrid
 export default App

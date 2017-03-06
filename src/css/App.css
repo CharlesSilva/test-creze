@@ -2,6 +2,9 @@
  margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: 'Roboto';font-size: 15px;
+}
 .App-logo{
     height: 2em;
     margin-top: 10px;
@@ -19,6 +22,7 @@
 #UserMenu{
     color: azure;
     background-color: #2e5b9a;
+    font-size: 17px;
 }
 .GitHubIco{
     text-align: center;
@@ -33,10 +37,46 @@
     color: #90c33f;
 }
 #rootMenuDiv{
-    overflow-x: scroll;
     overflow-y: hidden;
+    max-height: 80px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
-
+.RootMenuItem{
+    transition: .2s;
+    font-family: 'Roboto';
+    color: #84b0ed;
+    height: 5em;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 100px;
+    margin: 0px 1em 0px 1em;
+    display: inline-block;
+    text-align: center;
+}
+.RootMenuItem:hover{
+    transition: .5s;
+    transform: scale(.8,.8);
+    color: #2e5b9a;
+}
+.RootMenuItem:active{
+    transition: .2s;
+    transform: scale(.5,.5);
+    color: #2e5b9a;
+}
+.RootMenuItemActive{
+    color: #2e5b9a;
+}
+.RootMenuItemIcon{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.RootMenuItemLabel{
+    cursor: pointer;
+}
 .ugly{
     background-color: red;
 }
+
