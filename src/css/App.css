@@ -110,16 +110,40 @@ body {
     font-size: 15px;
     color: dimgrey;
 }
+.ReportGrid{
+    text-align: center;
+    background-color: #eaf3ff;
+    border-radius: .3em;
+    padding: 5px;
 
+}
+.ReportWrapper{
+    background-color: #fcfdff;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #84b0ed;
+    border-radius: .2em;
+    min-height: 60px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+.ReportWrapper Button{
+    margin-top: 10px;
+}
+.ReportValue{
+    color: #2e5b9a;
+    font-size: 20px;
+
+}
+.ReportLabel{
+    color: dimgrey;
+}
 .Active{
     color: #2e5b9a;
     border-bottom-style: solid;
     border-bottom-color: #2e5b9a;
     font-weight: bolder;
 }
-
-
-
 .ugly{
     background-color: red;
 }
