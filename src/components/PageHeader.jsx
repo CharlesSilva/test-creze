@@ -1,6 +1,7 @@
 import React,{Component} from "react"
-import Logo from "./Logo"
 import {Navbar, NavDropdown, MenuItem, Nav} from "react-bootstrap"
+import FontAwesome from "react-fontawesome"
+import Logo from "./Logo"
 import "../css/App.css"
 
 class PageHeader extends Component{
@@ -30,14 +31,18 @@ class PageHeader extends Component{
                 <Nav pullRight>
                     <NavDropdown title={this.state.saludo} id="UserMenu" >
                         <MenuItem>
-                            <span>Configuracion</span>
+                            <span>Configuración</span>
                         </MenuItem>
                         <MenuItem>
-                            <span>Cerrar session</span>
+                            <span>Cerrar sesión</span>
                         </MenuItem>
                         <MenuItem divider />
                         <MenuItem onClick={() => this.goToRepo()}>
-                            <span>Repositorio</span>
+                            <FontAwesome
+                                name="github"
+                                ariaLabel="Repositorio"
+                                className="GitHubIco"
+                            />
                         </MenuItem>
                     </NavDropdown>
                 </Nav>
