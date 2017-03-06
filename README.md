@@ -37,4 +37,8 @@ Para poder correr esta aplicacion es necesario tener instalados:
 - node
 - npm
 
-
+#### Especificaciones
+- Para crear este proyecto se uso create-react-app un conjunto de scripts que implementan webpack y el preset de ES& para facilitar el desarrollo
+https://www.npmjs.com/package/create-react-app
+- Tambien se hizo uso de la libreria react-bootsrap para usar elemntos de boostrap codificados como JSX
+https://react-bootstrap.github.io/
