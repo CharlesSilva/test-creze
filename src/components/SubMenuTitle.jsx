@@ -16,10 +16,10 @@ class SubMenuTitle extends Component{
             <div className="row SubMenuRowTitle">
                 <Form >
                     <FormGroup controlId="formBasicText">
-                        <Col  lg={10}  md={10} sm={10}>
+                        <Col  lg={8}  md={8} sm={8}>
                             <h3 className="subMenuTitle">{this.state.subMenuTitle}</h3>
                         </Col>
-                        <Col lg={2} md={2} sm={2} >
+                        <Col lg={4} md={4} sm={4} >
                             <FormControl
                                 type="text"
                                 value=""

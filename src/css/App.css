@@ -42,6 +42,12 @@ body {
     overflow-x: auto;
     white-space: nowrap;
 }
+
+#paginationDiv{
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+}
+
 .RootMenuItem{
     transition: .2s;
     font-family: 'Roboto';
@@ -100,12 +106,18 @@ body {
     color: #2e5b9a;
     font-weight: bold;
 }
+.TotalCounter{
+    font-size: 15px;
+    color: dimgrey;
+}
+
 .Active{
     color: #2e5b9a;
     border-bottom-style: solid;
     border-bottom-color: #2e5b9a;
     font-weight: bolder;
 }
+
 
 
 .ugly{

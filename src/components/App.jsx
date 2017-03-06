@@ -2,6 +2,8 @@ import React,{Component} from "react"
 import PageHeader from "./PageHeader"
 import RootMenu from "./RootMenu"
 import SubMenu from "./SubMenu"
+import Pages from "./Pages"
+import TotalCounter from "./TotalCounter"
 
 
 class App extends Component{
@@ -18,12 +20,17 @@ class App extends Component{
                 <div className="row subMenuRow">
                     <SubMenu />
                 </div>
+                <div className="row paginationRow">
+                    <Pages activePage="1"/>
+                </div>
+                <div className="row conterRow">
+                    <TotalCounter totalDeApplicaciones="10"/>
+                </div>
             </div>
         </div>
         );
     }
 }
-
-//TODO : add sub menu element
+//TODO : add counter
 //TODO : add reportGrid
 export default App
